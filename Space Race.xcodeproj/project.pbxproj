@@ -9,25 +9,49 @@
 /* Begin PBXBuildFile section */
 		7682845F1EF4597300F290FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682845E1EF4597300F290FD /* AppDelegate.swift */; };
 		768284611EF4597300F290FD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 768284601EF4597300F290FD /* GameScene.sks */; };
-		768284631EF4597300F290FD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 768284621EF4597300F290FD /* Actions.sks */; };
 		768284651EF4597300F290FD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768284641EF4597300F290FD /* GameScene.swift */; };
 		768284671EF4597300F290FD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768284661EF4597300F290FD /* GameViewController.swift */; };
 		7682846A1EF4597300F290FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768284681EF4597300F290FD /* Main.storyboard */; };
 		7682846C1EF4597300F290FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7682846B1EF4597300F290FD /* Assets.xcassets */; };
 		7682846F1EF4597300F290FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7682846D1EF4597300F290FD /* LaunchScreen.storyboard */; };
+		768284831EF459B900F290FD /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768284771EF459B900F290FD /* ball.png */; };
+		768284841EF459B900F290FD /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768284781EF459B900F290FD /* ball@2x.png */; };
+		768284851EF459B900F290FD /* bigSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 768284791EF459B900F290FD /* bigSpark.png */; };
+		768284861EF459B900F290FD /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7682847A1EF459B900F290FD /* explosion.sks */; };
+		768284871EF459B900F290FD /* hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682847B1EF459B900F290FD /* hammer.png */; };
+		768284881EF459B900F290FD /* hammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682847C1EF459B900F290FD /* hammer@2x.png */; };
+		768284891EF459B900F290FD /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682847D1EF459B900F290FD /* player.png */; };
+		7682848A1EF459B900F290FD /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682847E1EF459B900F290FD /* player@2x.png */; };
+		7682848B1EF459B900F290FD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682847F1EF459B900F290FD /* spark.png */; };
+		7682848C1EF459B900F290FD /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 768284801EF459B900F290FD /* Starfield.sks */; };
+		7682848D1EF459B900F290FD /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 768284811EF459B900F290FD /* tv.png */; };
+		7682848E1EF459B900F290FD /* tv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768284821EF459B900F290FD /* tv@2x.png */; };
+		768284901EF4634700F290FD /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7682848F1EF4634700F290FD /* ToDo.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7682845B1EF4597300F290FD /* Space Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Race.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7682845E1EF4597300F290FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768284601EF4597300F290FD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		768284621EF4597300F290FD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		768284641EF4597300F290FD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		768284661EF4597300F290FD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		768284691EF4597300F290FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7682846B1EF4597300F290FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7682846E1EF4597300F290FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768284701EF4597300F290FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768284771EF459B900F290FD /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		768284781EF459B900F290FD /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		768284791EF459B900F290FD /* bigSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigSpark.png; sourceTree = "<group>"; };
+		7682847A1EF459B900F290FD /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		7682847B1EF459B900F290FD /* hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammer.png; sourceTree = "<group>"; };
+		7682847C1EF459B900F290FD /* hammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hammer@2x.png"; sourceTree = "<group>"; };
+		7682847D1EF459B900F290FD /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		7682847E1EF459B900F290FD /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		7682847F1EF459B900F290FD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		768284801EF459B900F290FD /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		768284811EF459B900F290FD /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		768284821EF459B900F290FD /* tv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv@2x.png"; sourceTree = "<group>"; };
+		7682848F1EF4634700F290FD /* ToDo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +84,37 @@
 		7682845D1EF4597300F290FD /* Space Race */ = {
 			isa = PBXGroup;
 			children = (
+				768284761EF459B900F290FD /* Content */,
 				7682845E1EF4597300F290FD /* AppDelegate.swift */,
 				768284601EF4597300F290FD /* GameScene.sks */,
-				768284621EF4597300F290FD /* Actions.sks */,
 				768284641EF4597300F290FD /* GameScene.swift */,
 				768284661EF4597300F290FD /* GameViewController.swift */,
 				768284681EF4597300F290FD /* Main.storyboard */,
 				7682846B1EF4597300F290FD /* Assets.xcassets */,
 				7682846D1EF4597300F290FD /* LaunchScreen.storyboard */,
 				768284701EF4597300F290FD /* Info.plist */,
+				7682848F1EF4634700F290FD /* ToDo.txt */,
 			);
 			path = "Space Race";
+			sourceTree = "<group>";
+		};
+		768284761EF459B900F290FD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				768284771EF459B900F290FD /* ball.png */,
+				768284781EF459B900F290FD /* ball@2x.png */,
+				768284791EF459B900F290FD /* bigSpark.png */,
+				7682847A1EF459B900F290FD /* explosion.sks */,
+				7682847B1EF459B900F290FD /* hammer.png */,
+				7682847C1EF459B900F290FD /* hammer@2x.png */,
+				7682847D1EF459B900F290FD /* player.png */,
+				7682847E1EF459B900F290FD /* player@2x.png */,
+				7682847F1EF459B900F290FD /* spark.png */,
+				768284801EF459B900F290FD /* Starfield.sks */,
+				768284811EF459B900F290FD /* tv.png */,
+				768284821EF459B900F290FD /* tv@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +178,21 @@
 			files = (
 				7682846A1EF4597300F290FD /* Main.storyboard in Resources */,
 				768284611EF4597300F290FD /* GameScene.sks in Resources */,
+				768284891EF459B900F290FD /* player.png in Resources */,
+				7682848D1EF459B900F290FD /* tv.png in Resources */,
+				7682848B1EF459B900F290FD /* spark.png in Resources */,
+				768284851EF459B900F290FD /* bigSpark.png in Resources */,
+				7682848E1EF459B900F290FD /* tv@2x.png in Resources */,
+				768284861EF459B900F290FD /* explosion.sks in Resources */,
+				768284831EF459B900F290FD /* ball.png in Resources */,
 				7682846C1EF4597300F290FD /* Assets.xcassets in Resources */,
 				7682846F1EF4597300F290FD /* LaunchScreen.storyboard in Resources */,
-				768284631EF4597300F290FD /* Actions.sks in Resources */,
+				768284871EF459B900F290FD /* hammer.png in Resources */,
+				768284881EF459B900F290FD /* hammer@2x.png in Resources */,
+				768284901EF4634700F290FD /* ToDo.txt in Resources */,
+				7682848C1EF459B900F290FD /* Starfield.sks in Resources */,
+				7682848A1EF459B900F290FD /* player@2x.png in Resources */,
+				768284841EF459B900F290FD /* ball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nbalsmeyer.Space-Race";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -287,6 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nbalsmeyer.Space-Race";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

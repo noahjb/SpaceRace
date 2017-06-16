@@ -1,0 +1,3 @@
+If you're tempted to work on this project some more, you could start by fixing a bug: if the player gets in a difficult position, they can just remove their finger from the screen then touch somewhere else to have the spaceship immediately jump there. How could you fix this? Well, one easy way is to add code for touchesEnded() that terminates the game if the player stops touching the screen.
+
+If you're looking for something bigger to try, how about turning this game into a full space shooter. To do this, you need to create lasers going the opposite way, then make those lasers also collide with the space debris. In terms of controls, it wouldn't be hard to use touchesMoved() to move the player and touchesBegan() to fire lasers.
